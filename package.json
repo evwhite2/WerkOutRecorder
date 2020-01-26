@@ -1,0 +1,28 @@
+{
+  "name": "werkoutrecorder",
+  "version": "1.0.0",
+  "description": "Record exercises and save them to various work outs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evwhite2/WerkOutRecorder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evwhite2/WerkOutRecorder/issues"
+  },
+  "homepage": "https://github.com/evwhite2/WerkOutRecorder#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  }
+}
